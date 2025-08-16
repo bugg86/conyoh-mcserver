@@ -11,6 +11,9 @@
 *.sln.docstates
 *.env
 
+# ignore world files if they exist locally
+world/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
