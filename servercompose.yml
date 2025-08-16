@@ -1,0 +1,12 @@
+services:
+  server:
+    image: modded_server:latest
+    container_name: modded_server
+    ports:
+      - 25565:25565
+      - 24454:24454/udp
+    volumes: 
+      - "moddedserver_storage:/server"
+
+volumes:
+  moddedserver_storage:
