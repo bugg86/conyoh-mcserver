@@ -16,6 +16,7 @@
 cache/
 logs/
 versions/
+world/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
